@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+ <title>task327</title>
+ <style>
+ input:invalid + span:after{
+  content:"\002A";
+  color: red;
+ }
+ input:valid + span:after{
+  content:"\2714";
+  color: green;
+ }
+ </style>
+</head>
+<body>
+<form>
+<p>Имя пользователя <input type="name" placeholder="Введите имя" required><span></span></p>
+<p>Сколько вам лет? <input type="date" required><span></span></p>
+<p>Вы учитесь или работаете? <input type="text" placeholder="" required><span></span></p>
+<p>Сколько у вас свободного времени? <input type="text" placeholder="" required><span></span></p>
+<p>Что вы обычно делаете в свободное время? <input type="text" placeholder="" required></p>
+<button>Отправить</button>
+</form>
+</body>
+</html>

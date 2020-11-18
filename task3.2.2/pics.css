@@ -1,0 +1,16 @@
+.pic_shad{
+  box-shadow: 10px 0 10px 10px #000080,
+              0 15px 10px 0 #0000FF,
+              0 0 10px 0 #42AAFF ,
+              0 10px 20px 30px #87CEEB;
+  display: inline-block;
+  margin-left: 30em;
+  margin-top: 15em;
+}
+.pic_shad:hover{
+  box-shadow: 5px 0 10px 10px #120A8F,
+              0 15px 10px 0 #32127A,
+              0 0 10px 0 #00008B,
+              0 10px 20px 30px #00FFFF;
+  transition-duration: 2s;
+}

@@ -1,0 +1,55 @@
+p1:after {
+    content:' \2660 ';
+    font-size: 100%;
+}
+p2:after {
+    content: ' \2663 ';
+    font-size: 100%;
+}
+p3:after {
+    content:' \2665 ';
+    font-size: 100%;
+}
+p4:after {
+    content:' \2666 ';
+    font-size: 100%;
+}
+body {
+    font-size: 150%;
+}
+
+p5:after {
+    content: ' \03B1';
+}
+p6:after {
+    content: ' \03B2';
+}
+p7:after {
+    content: ' \03B3';
+}
+p8:after {
+    content: ' \03B4';
+}
+p9:after {
+    content: ' \03B5';
+}
+p10:after {
+    content: ' \00A2';
+}
+p11:after {
+    content: ' \00A3';
+}
+p12:after {
+    content: ' \00A5';
+}
+p13:after {
+    content: ' \00A9 , \00AE , \2122 .';
+}
+p14:after {
+    content: ' \00BC , \00BD , \00BE .';
+}
+p15:after {
+    content: ' \00B6 , \00A7 , \2010 , \2014 .';
+}
+p16:after {
+    content: ' \1F582 , \2693 , \2615 , \2626 , \2611 .';
